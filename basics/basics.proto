@@ -1,0 +1,28 @@
+// It is single line comment
+syntax = "proto3";
+
+/* where as this is 
+   multiline comments just c and c++ */
+message Person {
+    int32 age = 1;
+    string first_name = 2;
+    string last_name = 3;
+    //small picture will be in .jpeg format
+    bytes small_picture=4;
+    bool is_profile_verified=5;
+    float height=6;
+
+    // a list of phone numbers
+    repeated string phone_number=7;
+
+    // just 3 colour considered
+    enum Eyecolour {
+        UNKNOWN_EYE_COLOUR = 0;
+        EYE_BLACK = 1;
+        EYE_BROWN = 2;
+        EYE_GREEN = 3;
+    }
+
+    // enum data type
+    Eyecolour eye_colour=8;
+}
