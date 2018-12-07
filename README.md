@@ -1,5 +1,5 @@
 # Protocol-Buffers
-Go from scratch to master on Google Protocol Buffers
+Get Started with protocol-buffers
 
 ## Procedure for Beginner's
 1. Start with basics.proto file in Basic folder
